@@ -1,3 +1,8 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -10,20 +15,33 @@ body {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  background-color: palevioletred;
+  background-color: rgb(153, 144, 147);
 }
 .container {
   width: 375px;
-  border: 1px solid white;
+  border: 1px solid grey;
   border-radius: 15px;
 }
 h1 {
-  margin-bottom: 20px;
+  
+  color: rgb(4, 39, 39);
+  font-family: 'Dancing Script', cursive;
+  padding: 10px;
 }
 p {
-  margin: 5px;
-  color: bisque;
+  margin-bottom: 15px;
+  color: wheat;
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
 }
 img{
     width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+span{
+    font-style: oblique;
+    color: black;
 }

@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: palevioletred;
+}
+.container {
+  width: 375px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+p {
+  margin: 5px;
+  color: bisque;
+}
+img{
+    width: 100%;
+}
